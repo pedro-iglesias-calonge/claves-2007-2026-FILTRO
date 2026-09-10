@@ -1,4 +1,4 @@
-# CLAVES 2007-2026: Consulta Longitudinal Abierta para la Visualización de la Educación Superior Musical en Chile
+# CLAVES 2007-2026: Filtro de programas vinculados a la música en la base de datos del SIES
 
 **Filtrado reproducible de programas de música en la Base de Datos de Matrícula del SIES (2007-2026)**
 
@@ -255,7 +255,6 @@ El uso del modelo de lenguaje fue **estrictamente asistivo**. El LLM emitió rec
 2. **Muestreo.** Las verificaciones de falsos negativos (84 casos) y positivos (67 casos) se hicieron sobre muestras, no sobre la totalidad de la base, lo que deja un margen de incertidumbre residual.
 3. **Dependencia del léxico.** La clasificación inicial depende de la exhaustividad del vocabulario construido (69 términos de inclusión, 47 de exclusión), refinado iterativamente pero no necesariamente exhaustivo.
 4. **Subjetividad en zonas grises.** Los 26 casos remitidos a revisión humana implican un juicio que, aunque documentado y trazable, no es completamente reproducible sin acceso a los mismos criterios de decisión.
-5. **Categoría faltante.** Dos programas incluidos por decisión humana carecen de categoría asignada (ver §4.4).
 
 ---
 
@@ -265,7 +264,7 @@ Si utiliza este procedimiento o los datos derivados, cite el repositorio. Los me
 
 ```bibtex
 @misc{claves2007_2026,
-  title        = {CLAVES 2007-2026: Consulta Longitudinal Abierta para la Visualización de la Educación Superior Musical en Chile},
+  title        = {CLAVES 2007-2026: Filtro de programas vinculados a la música en la base de datos del SIES},
   author       = {Pedro Iglesias},
   year         = {2026},
   howpublished = {\url{https://github.com/pedro-iglesias-calonge/claves-2007-2026-FILTRO}},
