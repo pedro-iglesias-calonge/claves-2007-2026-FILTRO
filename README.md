@@ -15,8 +15,6 @@ Este repositorio documenta, de forma **auditable y reproducible**, el procedimie
 
 A partir de una base original de **280.160 registros** (58 columnas, 20 años), el procedimiento aisló **2.664 filas** correspondientes a **215 programas musicales** (≈ 0,95 % de la matrícula original), conservando la estructura y el formato exactos de la fuente. El método combina tres actores en turnos sucesivos —**la regla** (léxico y contexto), **el modelo** (un LLM como apoyo en los bordes) y **el humano** (decisión final en las zonas grises)—, registrando para cada programa su **veredicto, categoría, método y razón**.
 
-> **Enfoque humanista.** La documentación metodológica (`metodologia/`) está escrita para lectores de pedagogía y música, no solo para programadores. El código es el respaldo técnico de ese relato, no su sustituto.
-
 **Palabras clave:** educación superior musical · SIES · Chile · matrícula · clasificación léxica y semántica · modelo de lenguaje · revisión humana · ciencia abierta · datos abiertos.
 
 ---
