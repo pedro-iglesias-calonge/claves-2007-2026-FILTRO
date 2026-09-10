@@ -1,17 +1,15 @@
-# Etapa 04 — El consultor local: pedir ayuda a un modelo de lenguaje
-
-_Enfoque humanista: hay programas que ni su nombre ni su contexto resuelven del todo. Para esos casos el estudio convoca a un colaborador externo: un modelo de lenguaje que lee los nombres y responde con un veredicto. Esta etapa construye el puente hacia ese colaborador._
+# Etapa 04 — Cliente del modelo de lenguaje
 
 ## Qué se hizo
 
-Se construyó un **cliente reutilizable** (`sies_musica/cliente_llm.py`) que consulta al modelo local **gpt-oss:20b** servido por Ollama en `localhost:11434`. El cliente es un puente, no una decisión: recibe una lista de nombres de programa y devuelve, para cada uno, un veredicto (`INCLUIR`, `EXCLUIR` o `DUDOSO`), una categoría de las 9 del estudio y una razón breve.
+Se construyó un **cliente reutilizable** (`sies_musica/cliente_llm.py`) que consulta al modelo local **gpt-oss:20b** servido por Ollama en `localhost:11434`. El cliente es una interfaz de consulta, no una decisión: recibe una lista de nombres de programa y devuelve, para cada uno, un veredicto (`INCLUIR`, `EXCLUIR` o `DUDOSO`), una categoría de las 9 del estudio y una razón breve.
 
-El puente trabaja así:
+El cliente funciona así:
 
 - **Por lotes de 25.** Los nombres se consultan en grupos de a lo más 25, en **una sola pasada**: cada nombre se pregunta una única vez, sin iteraciones. Esto responde a la restricción de recursos de cómputo del estudio.
 - **Con formato JSON.** Se le pide al modelo responder en JSON estructurado: un objeto por nombre con su veredicto, categoría y razón. El cliente valida la respuesta: descarta cercas de código, tolera texto antes del JSON, acepta el sobre de respuesta de Ollama y normaliza tildes y mayúsculas para casar los nombres devueltos con los consultados.
 - **Sin romper el lote.** Si el servidor no está disponible, tarda demasiado o devuelve una respuesta malformada, **el lote no se abandona**: los nombres afectados quedan marcados como `ERROR` con la razón del fallo y el proceso continúa con el siguiente lote. El resto de los nombres recibe su veredicto.
-- **Sin ver la base completa.** El cliente recibe solo el conjunto que el pipeline le pase (la frontera de candidatos o las muestras de control). Los 16.684 nombres completos nunca cruzan este puente.
+- **Sin ver la base completa.** El cliente recibe solo el conjunto que el pipeline le pase (la frontera de candidatos o las muestras de control). Los 16.684 nombres completos nunca se envían al modelo.
 
 ## Qué se descubrió
 
@@ -19,7 +17,7 @@ Al probar el cliente contra el modelo real (prueba de humo con 50 nombres: los 1
 
 - El modelo **respondió con veredictos para 49 de 50 nombres** en dos lotes de 25, con categoría y razón en cada caso.
 - El caso restante reveló el valor del manejo de fallos: el modelo **omitió un nombre** en su respuesta. El cliente no lo inventó ni abortó: lo marcó como `ERROR` con la razón *"nombre ausente en la respuesta del LLM"*, para que la etapa siguiente decida.
-- La muestra de excluidos fue confirmada como tal por el modelo (sin falsos positivos evidentes en la muestra), y los dudosos de la etapa anterior fueron reevaluados por el colaborador externo.
+- La muestra de excluidos fue confirmada como tal por el modelo (sin falsos positivos evidentes en la muestra), y los dudosos de la etapa anterior fueron reevaluados por el modelo.
 
 ## Por qué importa para el resto del estudio
 

@@ -12,8 +12,8 @@ Primera versión pública del procedimiento y sus productos.
 - Pipeline completo de filtrado en ocho etapas (`scripts/01` a `scripts/08`).
 - Paquete `sies_musica/` con el clasificador léxico y semántico, la lectura
   robusta del CSV, el cliente LLM, la verificación y el ensamblado.
-- Documentación metodológica narrativa (`metodologia/00` a `08`), pensada para
-  lectores de pedagogía y música.
+- Documentación metodológica (`metodologia/00` a `08`), paso a paso del procedimiento
+  para el artículo académico.
 - Registros de corrida por etapa (`logs/`).
 - Productos finales: `prod/Musica_2007_2026_filtrado.csv` (2.664 filas, 58
   columnas, `cp1252`) y `prod/clasificacion_total.csv` (215 programas

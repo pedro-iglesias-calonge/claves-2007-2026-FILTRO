@@ -1,13 +1,11 @@
-# Etapa 05 — Cazar falsos negativos: ¿dejamos música fuera sin querer?
-
-_Enfoque humanista: un motor de reglas es tan riguroso como sus reglas, y sus reglas solo ven lo que la mirada captura. Es loable preguntarse, con humildad, si algo musical quedó fuera del marco por culpa de la propia mirada. Esta etapa pone la clasificación a prueba: le pregunta a un colaborador externo si los nombres que el motor dejó afuera, pese a vivir en áreas musicales, merecían quedarse._
+# Etapa 05 — Verificación de falsos negativos
 
 ## Qué se hizo
 
 Se montó una **pasada de control de falsos negativos**: buscar programas que el motor excluyó pero que podrían ser musicales. Para no revisar los 16.684 nombres completos, se definió una **red de candidatos** acotada:
 
 - **La red**: todos los nombres que viven en un **área genérica musical** (*"Música, Canto o Danza"* o *"Pedagogía en Artes y Música"*) pero cuyo nombre **no contiene ninguna señal léxica de música** (ni la palabra música, ni canto, ni instrumentos, ni otras pistas del filtro léxico). De esos se **deduplicaron los ya incluidos** y también los que ya vivían en la **zona gris** de la etapa 02 (los nombres ya `DUDOSO` no se re-consultan, en coherencia con la decisión de no iterar). Quedaron **34 nombres** como red de candidatos.
-- **El control**: una **muestra aleatoria de 50 excluidos** (con semilla fija, reproducible), para que el colaborador externo confirmara que la exclusión masiva de la etapa 02 no esconde falsos negativos en el resto del universo.
+- **El control**: una **muestra aleatoria de 50 excluidos** (con semilla fija, reproducible), para que el modelo confirmara que la exclusión masiva de la etapa 02 no oculta falsos negativos en el resto del conjunto.
 
 Ambos conjuntos se consultaron al modelo local **gpt-oss:20b** con el cliente de la etapa 04 (lotes de 25, una sola pasada). Cada veredicto del LLM se registró en la clasificación **con método `llm`** y su razón, y los `INCLUIR` del modelo se incorporaron a la clasificación.
 
@@ -28,7 +26,7 @@ Como control adicional, la misma consulta se repitió con el modelo **alias-fast
 
 1. **Cierra el frente de falsos negativos**: el motor no dejó fuera ningún programa musical entre los que viven en áreas musicales ni en la muestra de control. La medida tiene el peso que da el muestreo aleatorio reproducible, documentado en el log.
 2. **El hallazgo es auditable**: cada uno de los 84 nombres tiene su veredicto del LLM con razón en `prod/verificacion_falsos_negativos.csv`.
-3. **La zona gris crece con criterio**: el nuevo `DUDOSO` (con área musical) pasa a la revisión humana en lugar de decidirse en silencio, y los que ya estaban en zona gris no se vuelven a molestar.
+3. **La zona gris crece con criterio**: el nuevo `DUDOSO` (con área musical) pasa a la revisión humana en lugar de decidirse en silencio, y los que ya estaban en zona gris no se vuelven a consultar.
 4. **La restricción de recursos se respeta**: se consultaron 84 nombres, no miles; la verificación no re-corre la clasificación completa.
 5. **La conclusión no depende de un solo modelo**: el modelo local y el de la nube coinciden en cero falsos negativos, lo que refuerza la confianza del frente. (El modelo de la nube fue en esta corrida más severo: confirmó los 84 como `EXCLUIR`, sin `DUDOSO`.)
 

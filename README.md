@@ -13,7 +13,7 @@
 
 Este repositorio documenta, de forma **auditable y reproducible**, el procedimiento mediante el cual se identificaron, extrajeron y documentaron los **programas de educación superior vinculados con la música en Chile** durante el período **2007-2026**, a partir de la Base de Datos de Matrícula del Servicio de Información de Educación Superior (SIES).
 
-A partir de una base original de **280.160 registros** (58 columnas, 20 años), el procedimiento aisló **2.664 filas** correspondientes a **215 programas musicales** (≈ 0,95 % de la matrícula original), conservando la estructura y el formato exactos de la fuente. El método combina tres actores en turnos sucesivos —**la regla** (léxico y contexto), **el modelo** (un LLM como apoyo en los bordes) y **el humano** (decisión final en las zonas grises)—, registrando para cada programa su **veredicto, categoría, método y razón**.
+A partir de una base original de **280.160 registros** (58 columnas, 20 años), el procedimiento aisló **2.664 filas** correspondientes a **215 programas musicales** (≈ 0,95 % de la matrícula original), conservando la estructura y el formato exactos de la fuente. El método combina tres formas de decisión sucesivas —**reglas** (léxicas y semánticas), **verificación asistida por un LLM** y **revisión humana**— y registra para cada programa su **veredicto, categoría, método y razón**.
 
 **Palabras clave:** educación superior musical · SIES · Chile · matrícula · clasificación léxica y semántica · modelo de lenguaje · revisión humana · ciencia abierta · datos abiertos.
 
@@ -66,7 +66,7 @@ El objetivo del estudio fue construir un conjunto de datos histórico, **auditab
 
 ## 3. Metodología
 
-El procedimiento se organiza en **ocho etapas**, cada una con su documento narrativo en `metodologia/`, su script en `scripts/` y su registro de corrida en `logs/`. La síntesis completa está en [`metodologia/00-sintesis.md`](metodologia/00-sintesis.md) y la revisión metodológica formal en [`revision_metodologia.md`](revision_metodologia.md).
+El procedimiento se organiza en **ocho etapas**, cada una con su documento en `metodologia/`, su script en `scripts/` y su registro de corrida en `logs/`. La síntesis completa está en [`metodologia/00-sintesis.md`](metodologia/00-sintesis.md) y la revisión metodológica formal en [`revision_metodologia.md`](revision_metodologia.md).
 
 | # | Etapa | Qué hace | Documento | Script | Log |
 |---|-------|----------|-----------|--------|-----|
@@ -76,14 +76,14 @@ El procedimiento se organiza en **ocho etapas**, cada una con su documento narra
 | 4 | Cliente del modelo | Puente probado con el LLM (local y nube) | `metodologia/04-cliente-llm.md` | `scripts/03_cliente_llm.py` | `logs/03-cliente-llm.md` |
 | 5 | Falsos negativos | Red de candidatos + muestra de control al LLM (84 nombres) | `metodologia/05-verificacion-falsos-negativos.md` | `scripts/04_verificacion_falsos_negativos.py` | `logs/04-*.md` |
 | 6 | Falsos positivos | Incluidos fronterizos al LLM (67 nombres) | `metodologia/06-verificacion-falsos-positivos.md` | `scripts/05_verificacion_falsos_positivos.py` | `logs/05-*.md` |
-| 7 | Revisión humana | Decisión soberana sobre 26 puntos frontera | `metodologia/07-revision-humana.md` | `scripts/06_*.py`, `scripts/07_*.py` | `logs/06-*.md`, `logs/07-*.md` |
+| 7 | Revisión humana | Decisión final sobre 26 puntos frontera | `metodologia/07-revision-humana.md` | `scripts/06_*.py`, `scripts/07_*.py` | `logs/06-*.md`, `logs/07-*.md` |
 | 8 | Ensamblado final | Clasificación total + matrícula musical filtrada | `metodologia/08-ensamblado-final.md` | `scripts/08_ensamblado_final.py` | `logs/08-ensamblado-final.md` |
 
-### 3.1 Los tres turnos de decisión
+### 3.1 Métodos de decisión
 
-- **La regla.** Un léxico y un conjunto de reglas de contexto que la máquina aplica siempre igual. Decide la mayoría y deja los bordes a la vista.
-- **El modelo.** Un LLM (Ministral-3-14B vía Blablador, con una corrida exploratoria en local) que opina en lenguaje natural sobre los casos frontera, con veredicto tri-valor `INCLUIR / EXCLUIR / DUDOSO`, categoría y razón.
-- **El humano.** Resuelve en última instancia los casos que ni la regla ni el modelo se atrevieron a decidir, mediante una aplicación HTML autocontenida. Su decisión es final.
+- **Las reglas.** Un léxico y un conjunto de reglas de contexto que la máquina aplica de forma determinista. Resuelven la mayoría de los casos y aíslan los bordes.
+- **El modelo.** Un LLM (Ministral-3-14B vía Blablador, con una corrida exploratoria en local) que emite un veredicto tri-valor `INCLUIR / EXCLUIR / DUDOSO`, con categoría y razón, sobre los casos frontera.
+- **La revisión humana.** Resuelve los casos que ni las reglas ni el modelo resolvieron, mediante una aplicación HTML autocontenida. Su decisión es final.
 
 ### 3.2 Categorías del dominio
 
@@ -166,7 +166,7 @@ El glosario de dominio y las reglas acordadas están en [`CONTEXT.md`](CONTEXT.m
 ├── datos SIES/
 │   ├── README.md                 # Procedencia y descarga de la base fuente
 │   └── glosario_bases_matricula_2026.md
-├── metodologia/                  # Relato paso a paso (00-08) para el artículo
+├── metodologia/                  # Documentación paso a paso (00-08) para el artículo
 ├── logs/                         # Registro duro de cada corrida
 ├── prod/                         # Productos finales e intermedios
 ├── scripts/                      # Orquestación del pipeline (01-08)
@@ -179,7 +179,7 @@ El glosario de dominio y las reglas acordadas están en [`CONTEXT.md`](CONTEXT.m
 | `sies_musica/` | Lógica pura y reutilizable (clasificador, lectura, ensamblado, LLM) | Sí |
 | `scripts/` | Orquestación por etapas; cada script es una corrida reproducible | Sí |
 | `tests/` | Pruebas del comportamiento externo del clasificador y del ensamblado | Sí |
-| `metodologia/` | Documentación narrativa para el artículo académico | Sí |
+| `metodologia/` | Documentación metodológica paso a paso para el artículo académico | Sí |
 | `logs/` | Evidencia de cada corrida (indicadores, fechas, rutas) | Sí |
 | `prod/` | Productos finales e intermedios | Sí |
 | `datos SIES/` | Documentación de la fuente (la base cruda no se versiona) | Parcial |

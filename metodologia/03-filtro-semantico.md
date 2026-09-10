@@ -1,6 +1,4 @@
-# Etapa 03 — El filtro semántico: cuando el nombre se explica con contexto
-
-_Enfoque humanista: hay nombres que no se dicen a sí mismos. Un programa llamado "educación artística" no aclara si su alma es la música, la pintura o la danza. Para entenderlo hay que mirar dónde está parado dentro de la base: su área y su subárea._
+# Etapa 03 — Filtro semántico
 
 ## Qué se hizo
 

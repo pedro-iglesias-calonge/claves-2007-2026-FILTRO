@@ -1,10 +1,8 @@
-# Etapa 01 — Conocimiento de la fuente
-
-_Enfoque humanista: lo que se narra no es un tecnicismo, sino el primer gesto de honestidad del estudio: enterarse de qué es exactamente el material con el que se va a trabajar antes de tocarlo._
+# Etapa 01 — Verificación de integridad de los datos
 
 ## Qué se hizo
 
-Antes de buscar los programas musicales, se examinó el archivo que contiene la matrícula de Educación Superior de Chile entre 2007 y 2026. El propósito de esta etapa no fue todavía filtrar, sino **entender la fuente**: su idioma (la codificación de los caracteres), su estructura (cuántas columnas y filas) y sus señas de identidad (años cubiertos, cuántos nombres de carrera distintos existen y cuántos códigos de carrera distintos).
+Antes de buscar los programas musicales, se examinó el archivo que contiene la matrícula de Educación Superior de Chile entre 2007 y 2026. El propósito de esta etapa no fue todavía filtrar, sino **entender la fuente**: su idioma (la codificación de los caracteres), su estructura (cuántas columnas y filas) y sus características básicas (años cubiertos, cuántos nombres de carrera distintos existen y cuántos códigos de carrera distintos).
 
 ## Qué se descubrió
 
@@ -15,7 +13,7 @@ Antes de buscar los programas musicales, se examinó el archivo que contiene la 
 
 ## Por qué importa para el resto del estudio
 
-Esta etapa fija las reglas del juego para todo lo que sigue:
+Esta etapa define las condiciones para todo lo que sigue:
 
 1. La lectura se hace respetando el idioma del archivo (`cp1252`), para no corromper los nombres.
 2. El acceso a los campos es por **posición de columna**, no por nombre, porque los nombres de las columnas llevan tildes y espacios que varían.

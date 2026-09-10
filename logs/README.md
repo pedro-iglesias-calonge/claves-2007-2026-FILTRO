@@ -2,7 +2,7 @@
 
 Carpeta de **logs**: el registro duro de cada corrida (script → resultados → marcado). Cada log lista el script que lo generó, los veredictos por etapa, y las rutas de los resultados en `prod/`.
 
-Cada corrida se corresponde con un script de `scripts/` y una etapa documentada en lenguaje humano en `metodologia/`. El mapa completo está en `../metodologia/00-sintesis.md`.
+Cada corrida se corresponde con un script de `scripts/` y una etapa documentada en `metodologia/`. El mapa completo está en `../metodologia/00-sintesis.md`.
 
 ## Índice de corridas
 

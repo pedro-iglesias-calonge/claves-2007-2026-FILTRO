@@ -1,6 +1,4 @@
-# Etapa 06 — Cazar falsos positivos: ¿metimos música de sobra?
-
-_Enfoque humanista: el motor puede pecar por exceso. Un programa cuya inclusión descansa en una señal débil (una palabra ancha como "canto" o "sonido", un contexto de gestión cultural) merece una segunda mirada. Esta etapa pone a prueba las inclusiones fronterizas: los que entraron, verificar que de verdad pertenecen._
+# Etapa 06 — Verificación de falsos positivos
 
 ## Qué se hizo
 
@@ -28,11 +26,11 @@ La clasificación de la réplica en la nube quedó en **199 incluidos**, **16.46
 
 ## Por qué importa para el resto del estudio
 
-1. **La inclusión ya no es un monólogo de reglas**: las inclusiones más dudosas pasaron por un segundo lector, y las que el modelo descartó no se mantienen por inercia.
-2. **La zona gris se enriquece antes de la revisión humana**: pasan a ella los programas que el colaborador externo duda en confirmar (gestión cultural y sonido), un conjunto coherente que el humano podrá revisar con contexto en la etapa siguiente.
+1. **La inclusión ya no depende solo de las reglas**: las inclusiones más dudosas pasaron por un segundo lector, y las que el modelo descartó no se mantienen por inercia.
+2. **La zona gris se amplía antes de la revisión humana**: pasan a ella los programas que el modelo no confirma (gestión cultural y sonido), un conjunto que la revisión humana podrá resolver con contexto en la etapa siguiente.
 3. **Los veredictos no fabrican decisiones**: ningún nombre fue retirado ni marcado sin el respaldo de una razón del LLM; todo veredicto está registrado con método `llm`.
 4. **Ninguna retirada ni marcado se hace sin respaldo**: cada veredicto del LLM está en los CSV de veredictos (`prod/verificacion_falsos_positivos.csv` y `_cloud`) con su razón.
-5. **El criterio depende del colaborador externo**: el modelo local prefirió no retirar nada y dudar en 15; el de la nube retiró 12 programas de gestión cultural y dudó en 6. La frontera de la gestión cultural es la más sensible y merece atención en la revisión humana; la decisión final es del humano, no de un solo modelo.
+5. **El criterio depende del modelo consultado**: el modelo local prefirió no retirar nada y dudar en 15; el de la nube retiró 12 programas de gestión cultural y dudó en 6. La frontera de la gestión cultural es la más sensible y merece atención en la revisión humana; la decisión final corresponde a la revisión humana, no a un solo modelo.
 
 ## Registro
 
