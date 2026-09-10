@@ -26,9 +26,7 @@ campos. **La base de matrícula cruda no se versiona en este repositorio.**
 
 ### Cómo obtenerla
 
-1. Ingrese al portal de datos abiertos del Ministerio de Educación de Chile
-   (<https://datosabiertos.mineduc.cl/>) o al sitio del SIES
-   (<https://www.sies.cl/>).
+1. Ingrese al sitio del SIES (<https://www.mifuturo.cl/sies/>).
 2. Busque la sección de **Bases de Datos de Matrícula en Educación Superior**.
 3. Descargue la base del período **2007-2026**.
 4. Coloque el archivo en esta carpeta con el nombre exacto
