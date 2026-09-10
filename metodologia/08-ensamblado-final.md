@@ -16,7 +16,7 @@ La decisión humana se incorpora sobre el **nombre normalizado** (la misma unida
 - **La lista final tiene 215 programas incluidos**, y **13 de ellos entran por decisión humana** (de 202 a 215). Las zonas grises no fueron una formalidad: movieron la frontera en un 6% de los incluidos.
 - **La serie cubre los 20 años sin huecos**: el archivo final tiene filas de `MAT_2007` a `MAT_2026`, todos los años presentes. La matrícula musical no tiene lagunas en el registro.
 - **El filtro conserva 49 instituciones** (284 combinaciones institución–curso): el archivo final no es una lista de nombres, es la matrícula real con todas sus instituciones, carreras, sedes y años.
-- **La decisión humana resolvió la frontera exacta donde la regla no resuelve**: los programas de *sonido* (ingenierías acústicas, técnicos de sonido) y de *educación artística pura* entraron o salieron según la decisión humana; en particular, los nombres `sonido` y `tecnico de nivel superior sonido y acustica` entraron sin categoría final, porque la revisión humana incluyó sin precisarla. La clasificación total admite ese caso: la categoría queda en blanco, pero el veredicto es definitivo.
+- **La decisión humana resolvió la frontera exacta donde la regla no resuelve**: los programas de *sonido* (ingenierías acústicas, técnicos de sonido) y de *educación artística pura* entraron o salieron según la decisión humana. En particular, los nombres `sonido` y `tecnico de nivel superior sonido y acustica` se incorporaron con la categoría **Producción musical y sonido**, asignada en la revisión humana; la clasificación total no deja ninguna categoría en blanco.
 
 ## Por qué importa para el resto del estudio
 
