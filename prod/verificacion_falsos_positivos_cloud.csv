@@ -1,0 +1,68 @@
+nombre_normalizado,veredicto,categoria,metodo,razon
+canto popular,INCLUIR,Interpretación musical,llm,"El programa se centra en la práctica e interpretación del canto, que es una actividad musical."
+composicion y arreglos,INCLUIR,Composición y arreglos,llm,El objeto de estudio es la creación y adaptación de obras musicales.
+curso de especializacion de postitulo en musicoterapia,INCLUIR,Musicoterapia,llm,El programa está explícitamente orientado a la musicoterapia.
+curso de especializacion de postitulo en terapias de arte m/musicoterapia,INCLUIR,Musicoterapia,llm,Menciona musicoterapia como parte del contenido del curso.
+curso de especializacion de postitulo en terapias de arte mencion musicoterapia,INCLUIR,Musicoterapia,llm,La mención a musicoterapia indica que la música es parte central del programa.
+"curso de especializacion de postitulo en terapias de arte, mencion musicoterapia",INCLUIR,Musicoterapia,llm,Incluye la disciplina de musicoterapia dentro de las terapias de arte.
+diploma de postitulo en comunicacion y gestion cultural,EXCLUIR,,llm,No especifica música; se enfoca en comunicación y gestión cultural en general.
+diploma de postitulo en direccion orquestal,INCLUIR,Gestión cultural,llm,La dirección de orquesta es una actividad ligada al ámbito musical.
+diploma de postitulo en gestion cultural,EXCLUIR,,llm,El programa se refiere a gestión cultural sin indicar foco musical.
+diploma de postitulo en gestion cultural comunitaria y politicas culturales,EXCLUIR,,llm,"Enfoque amplio en gestión y políticas culturales, sin referencia explícita a la música."
+diplomado de especializacion en direccion coral escolar,INCLUIR,Gestión cultural,llm,La dirección coral está directamente vinculada a la práctica musical.
+diplomado de recursos musicoterapeuticos para el abordaje de la salud y la educacion,INCLUIR,Musicoterapia,llm,"El título menciona recursos musicoterapéuticos, indicando un enfoque musical."
+diplomado en direccion coral,INCLUIR,Gestión cultural,llm,"Se trata de la dirección de coros, actividad musical."
+diplomado en direccion coral escolar,INCLUIR,Gestión cultural,llm,La dirección coral en contexto escolar es claramente un programa musical.
+diplomado en direccion de orquestas juveniles e infantiles,INCLUIR,Gestión cultural,llm,La dirección de orquestas juveniles e infantiles es una disciplina musical.
+diplomado en direccion de orquestas juveniles e infantiles nivel i,INCLUIR,Gestión cultural,llm,Mismo argumento que el programa anterior; se enfoca en música.
+diplomado en especializacion en direccion coral escolar,INCLUIR,Gestión cultural,llm,"Claramente orientado a la dirección coral, actividad musical."
+diplomado en gestion cultural,EXCLUIR,,llm,No indica vínculo con la música.
+diplomado en gestion cultural mencion administracion de organizaciones culturales,EXCLUIR,,llm,"Se centra en administración de organizaciones culturales, sin referencia a la música."
+diplomado en gestion cultural mencion educacion artistica o mediacion lectora,EXCLUIR,,llm,"El enfoque es educación artística y mediación lectora, no necesariamente musical."
+diplomado en gestion cultural publica y privada,EXCLUIR,,llm,Programa de gestión cultural sin indicio de contenido musical.
+diplomado en gestion cultural vinculado a la educacion,EXCLUIR,,llm,"Enfoque en gestión cultural y educación, sin especificar música."
+diplomado en gestion y autogestion cultural,EXCLUIR,,llm,"Programa general de gestión cultural, sin referencia a la música."
+diplomado especializacion en direccion de orquestas juveniles e infantiles nivel ii,INCLUIR,Gestión cultural,llm,"Continúa la línea de dirección de orquestas, área musical."
+diplomado gestion cultural del patrimonio,DUDOSO,,llm,Podría referirse a patrimonio cultural en general o patrimonial musical; requiere revisión.
+etapa basica de la licenciatura en artes con mencion en composicion,INCLUIR,Composición y arreglos,llm,"El programa menciona composición, que es una disciplina musical."
+gestion cultural,DUDOSO,,llm,No especifica si la gestión está enfocada en la música o en la cultura en general.
+ingenieria de ejecucion en sonido,INCLUIR,Producción musical y sonido,llm,"Se trata de ingeniería de sonido, área vinculada a la producción musical."
+ingenieria en sonido,INCLUIR,Producción musical y sonido,llm,"Enfoque en tecnología y producción de sonido, parte del ámbito musical."
+ingenieria en sonido (p.e.),INCLUIR,Producción musical y sonido,llm,"Mismo caso que ingeniería en sonido, relacionado con la producción sonora."
+ingenieria en sonido continuidad,INCLUIR,Producción musical y sonido,llm,"Continúa la carrera de ingeniería de sonido, pertinente a la música."
+instructor en piano y teoria,INCLUIR,Pedagogía en música,llm,Formación docente de piano y teoría musical.
+interpretacion en canto,INCLUIR,Interpretación musical,llm,Programa centrado en la interpretación vocal.
+interpretacion superior en direccion coral,INCLUIR,Interpretación musical,llm,"Enseña dirección y interpretación coral, actividad musical."
+interpretacion superior mencion canto,INCLUIR,Interpretación musical,llm,Especialidad en interpretación vocal.
+interprete en canto popular,INCLUIR,Interpretación musical,llm,Formación para interpretar canto popular.
+interprete instrumental,INCLUIR,Interpretación musical,llm,Enseña interpretación de instrumentos musicales.
+interprete instrumental mencion (instrumento popular),INCLUIR,Interpretación musical,llm,Especialización en interpretación de instrumentos populares.
+licenciatura en artes con mencion en composicion,INCLUIR,Composición y arreglos,llm,"Mención de composición, área claramente musical."
+licenciatura en artes con mencion en sonido,INCLUIR,Producción musical y sonido,llm,"Enfoque en sonido, vinculado a la producción musical."
+"licenciatura en artes con, mencion composicion",INCLUIR,Composición y arreglos,llm,Mención de composición indica estudio musical.
+licenciatura en artes mencion sonido,INCLUIR,Producción musical y sonido,llm,"Se refiere a sonido, parte de la disciplina musical."
+"licenciatura en artes, mencion sonido",INCLUIR,Producción musical y sonido,llm,"Mención en sonido, relacionado con la música y su producción."
+licenciatura en composicion,INCLUIR,Composición y arreglos,llm,Programa dedicado a la composición musical.
+magister en artes mencion musicologia,ERROR,,llm,Categoría fuera de las 9 del dominio para INCLUIR: 'Musicología e investigación'
+"magister en artes, mencion musicologia",ERROR,,llm,Categoría fuera de las 9 del dominio para INCLUIR: 'Musicología e investigación'
+magister en composicion para artes escenicas y medios audiovisuales,INCLUIR,Composición y arreglos,llm,Formación en composición musical para artes escénicas y audiovisual.
+magister en direccion de orquestas juveniles e infantiles,INCLUIR,Interpretación musical,llm,Dirigir orquestas implica entrenamiento musical y de interpretación.
+magister en gestion cultural,DUDOSO,,llm,No queda claro si la gestión cultural se centra en la música o en otras expresiones.
+magister en gestion cultural aplicada,DUDOSO,,llm,La descripción es ambigua respecto a su vínculo con la música.
+magister en musicologia latinoamericana,INCLUIR,"Teoría, musicología e investigación",llm,"El programa se centra en la musicología, disciplina propia de la investigación musical."
+magister en patrimonio y gestion cultural,EXCLUIR,,llm,"El programa aborda gestión cultural y patrimonio, sin referencia explícita a la música."
+musico mencion direccion y gestion en conjunto y bandas instrumentales juveniles,INCLUIR,Gestión cultural,llm,"Incluye la dirección y gestión de bandas instrumentales, lo que implica actividad musical."
+musico-terapia,INCLUIR,Musicoterapia,llm,Nombre indica claramente que es un programa de musicoterapia.
+"postitulo en terapias de arte, mencion musicoterapia",INCLUIR,Musicoterapia,llm,Mención específica a musicoterapia dentro de terapias de arte.
+profesor de piano/violin/viola/violoncello/contrabajo/guitarra clasica/flauta traversa/oboe/clarinete/fagot/corno/trombon/trompeta etapa basica y media,INCLUIR,Pedagogía en música,llm,Programa de formación de docentes para múltiples instrumentos musicales.
+sonido,DUDOSO,,llm,El término es muy amplio; podría referirse a producción de sonido o a otro contexto no musical.
+sonido profesional,DUDOSO,,llm,"Aunque sugiere producción de sonido, la falta de información concreta impide decidir con certeza."
+taller de lutheria artistica,INCLUIR,Otros,llm,La luthería está directamente vinculada a la construcción y reparación de instrumentos musicales.
+tecnico de nivel superior en sonido,INCLUIR,Producción musical y sonido,llm,"Título indica formación técnica en el ámbito del sonido, relacionado con la producción musical."
+tecnico de nivel superior universitario en sonido,INCLUIR,Producción musical y sonido,llm,"Formación técnica universitaria enfocada en sonido, área musical."
+tecnico en arte y gestion cultural,EXCLUIR,,llm,El programa se centra en arte y gestión cultural sin mención explícita de música.
+tecnico en artes y gestion cultural,EXCLUIR,,llm,"Al igual que el anterior, no indica contenido musical."
+tecnico en sonido,INCLUIR,Producción musical y sonido,llm,"Formación técnica orientada al sonido, relevante para la producción musical."
+tecnico/a en interprete instrumental mencion (instrumento popular),INCLUIR,Interpretación musical,llm,Entrenamiento para la interpretación de instrumentos populares.
+tecnologia en sonido,INCLUIR,Producción musical y sonido,llm,"Enfoque tecnológico sobre sonido, vinculado a la producción y gestión sonora musical."
+tecnologia en sonido e iluminacion,INCLUIR,Producción musical y sonido,llm,Incluye sonido como componente principal; la iluminación es complementaria en áreas de producción.

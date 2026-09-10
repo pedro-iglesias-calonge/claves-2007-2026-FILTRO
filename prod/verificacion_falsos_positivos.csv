@@ -1,0 +1,68 @@
+nombre_normalizado,veredicto,categoria,metodo,razon
+canto popular,INCLUIR,Interpretación musical,llm,Canto como forma de interpretación vocal
+composicion y arreglos,INCLUIR,Composición y arreglos,llm,Enfoque en creación musical
+curso de especializacion de postitulo en musicoterapia,INCLUIR,Musicoterapia,llm,Programa centrado en terapia con música
+curso de especializacion de postitulo en terapias de arte m/musicoterapia,INCLUIR,Musicoterapia,llm,Incluye 'musicoterapia' a pesar del error tipográfico
+curso de especializacion de postitulo en terapias de arte mencion musicoterapia,INCLUIR,Musicoterapia,llm,'Musicoterapia' está presente en el título
+"curso de especializacion de postitulo en terapias de arte, mencion musicoterapia",INCLUIR,Musicoterapia,llm,'Musicoterapia' se menciona explícitamente
+diploma de postitulo en comunicacion y gestion cultural,DUDOSO,,llm,No se indica si el programa es específico de música; requiere revisión humana
+diploma de postitulo en direccion orquestal,INCLUIR,Interpretación musical,llm,"Conducción de orquesta, actividad musical principal"
+diploma de postitulo en gestion cultural,DUDOSO,,llm,No se especifica foco musical; revisión necesaria
+diploma de postitulo en gestion cultural comunitaria y politicas culturales,DUDOSO,,llm,Ambiguo respecto a la inclusión de música
+diplomado de especializacion en direccion coral escolar,INCLUIR,Pedagogía en música,llm,Dirección y enseñanza de coros escolares
+diplomado de recursos musicoterapeuticos para el abordaje de la salud y la educacion,INCLUIR,Musicoterapia,llm,Recursos terapéuticos basados en música
+diplomado en direccion coral,INCLUIR,Interpretación musical,llm,Conducción de coros
+diplomado en direccion coral escolar,INCLUIR,Pedagogía en música,llm,"Dirección de coros escolares, implicando pedagogía"
+diplomado en direccion de orquestas juveniles e infantiles,INCLUIR,Interpretación musical,llm,Conducción de orquestas jóvenes
+diplomado en direccion de orquestas juveniles e infantiles nivel i,INCLUIR,Interpretación musical,llm,Conducción a nivel inicial de orquestas infantiles
+diplomado en especializacion en direccion coral escolar,INCLUIR,Pedagogía en música,llm,Especialización en dirección y pedagogía de coros escolares
+diplomado en gestion cultural,DUDOSO,,llm,No especifica si es música; necesita revisión
+diplomado en gestion cultural mencion administracion de organizaciones culturales,DUDOSO,,llm,Ambigüedad sobre el foco musical
+diplomado en gestion cultural mencion educacion artistica o mediacion lectora,DUDOSO,,llm,Requiere confirmación de contenido musical
+diplomado en gestion cultural publica y privada,DUDOSO,,llm,No indica enfoque musical; revisión necesaria
+diplomado en gestion cultural vinculado a la educacion,DUDOSO,,llm,Ambiguo respecto a música
+diplomado en gestion y autogestion cultural,DUDOSO,,llm,No especifica vínculo con música; revisión necesaria
+diplomado especializacion en direccion de orquestas juveniles e infantiles nivel ii,INCLUIR,Interpretación musical,llm,Conducción a nivel avanzado de orquestas jóvenes
+diplomado gestion cultural del patrimonio,DUDOSO,,llm,No se indica si incluye música; necesita revisión
+etapa basica de la licenciatura en artes con mencion en composicion,INCLUIR,Composición y arreglos,llm,"Enfocado en composición musical, por lo que pertenece al ámbito musical."
+gestion cultural,INCLUIR,Gestión cultural,llm,"El programa se dedica a la gestión de actividades culturales, incluida la música."
+ingenieria de ejecucion en sonido,INCLUIR,Producción musical y sonido,llm,Cubre aspectos técnicos de producción y ejecución sonora.
+ingenieria en sonido,INCLUIR,Producción musical y sonido,llm,"Formación especializada en ingeniería de audio, parte del ámbito musical."
+ingenieria en sonido (p.e.),INCLUIR,Producción musical y sonido,llm,La abreviatura indica el mismo programa de ingeniería de sonido.
+ingenieria en sonido continuidad,INCLUIR,Producción musical y sonido,llm,"Se enfoca en la gestión continua del sonido, técnica musical."
+instructor en piano y teoria,INCLUIR,Pedagogía en música,llm,Programa de enseñanza de piano y teoría musical.
+interpretacion en canto,INCLUIR,Interpretación musical,llm,"Se centra en la interpretación vocal, actividad musical."
+interpretacion superior en direccion coral,INCLUIR,Interpretación musical,llm,Conducción y dirección corales son actividades interpretativas musicales.
+interpretacion superior mencion canto,INCLUIR,Interpretación musical,llm,Programa de interpretación vocal avanzada.
+interprete en canto popular,INCLUIR,Interpretación musical,llm,"Enseña y practica canto popular, actividad musical."
+interprete instrumental,INCLUIR,Interpretación musical,llm,Formación de interpretación instrumental.
+interprete instrumental mencion (instrumento popular),INCLUIR,Interpretación musical,llm,"Enfoque en interpretación con instrumento popular, musical."
+licenciatura en artes con mencion en composicion,INCLUIR,Composición y arreglos,llm,Especialización en composición musical dentro de las artes.
+licenciatura en artes con mencion en sonido,INCLUIR,Producción musical y sonido,llm,"Se enfoca en producción sonora, parte del ámbito musical."
+"licenciatura en artes con, mencion composicion",INCLUIR,Composición y arreglos,llm,Mención clara de composición musical.
+licenciatura en artes mencion sonido,INCLUIR,Producción musical y sonido,llm,Programa orientado al sonido dentro de las artes.
+"licenciatura en artes, mencion sonido",INCLUIR,Producción musical y sonido,llm,"Cubre aspectos de producción sonora, relevante musicalmente."
+licenciatura en composicion,INCLUIR,Composición y arreglos,llm,Enseña composición musical directamente.
+magister en artes mencion musicologia,INCLUIR,"Teoría, musicología e investigación",llm,Programa de investigación teórica sobre música.
+"magister en artes, mencion musicologia",INCLUIR,"Teoría, musicología e investigación",llm,Mención explícita en musicología.
+magister en composicion para artes escenicas y medios audiovisuales,INCLUIR,Composición y arreglos,llm,Se centra en composición musical aplicada a artes escénicas.
+magister en direccion de orquestas juveniles e infantiles,INCLUIR,Interpretación musical,llm,"Dirige conjuntos orquestales, actividad interpretativa."
+magister en gestion cultural,INCLUIR,Gestión cultural,llm,Programa de gestión de actividades culturales incluidas las musicales.
+magister en gestion cultural aplicada,INCLUIR,Gestión cultural,llm,"Enfocado en aplicación práctica de la gestión cultural, abarcando música."
+magister en musicologia latinoamericana,INCLUIR,"Teoría, musicología e investigación",llm,Estudio académico de la música latinoamericana
+magister en patrimonio y gestion cultural,DUDOSO,,llm,No se especifica si el enfoque es musical
+musico mencion direccion y gestion en conjunto y bandas instrumentales juveniles,INCLUIR,Gestión cultural,llm,Formación para dirigir y gestionar ensembles musicales juveniles
+musico-terapia,INCLUIR,Musicoterapia,llm,Enfoque terapéutico basado en la música
+"postitulo en terapias de arte, mencion musicoterapia",INCLUIR,Musicoterapia,llm,Postgrado que incluye entrenamiento en musicoterapia
+profesor de piano/violin/viola/violoncello/contrabajo/guitarra clasica/flauta traversa/oboe/clarinete/fagot/corno/trombon/trompeta etapa basica y media,INCLUIR,Pedagogía en música,llm,Capacitación docente en interpretación instrumental
+sonido,DUDOSO,,llm,"Nombre genérico, no claro si se centra en música"
+sonido profesional,INCLUIR,Producción musical y sonido,llm,Enfoque en producción de audio para ámbitos musicales
+taller de lutheria artistica,INCLUIR,Producción musical y sonido,llm,Elaboración artesanal de instrumentos musicales
+tecnico de nivel superior en sonido,INCLUIR,Producción musical y sonido,llm,Formación técnica para producción sonora en música
+tecnico de nivel superior universitario en sonido,INCLUIR,Producción musical y sonido,llm,Programa técnico universitario enfocado a la producción musical
+tecnico en arte y gestion cultural,DUDOSO,,llm,"Enfoque general de gestión cultural, no especifica música"
+tecnico en artes y gestion cultural,DUDOSO,,llm,Enfoque amplio sin indicio de especialización musical
+tecnico en sonido,INCLUIR,Producción musical y sonido,llm,Técnico orientado a la producción de audio para música
+tecnico/a en interprete instrumental mencion (instrumento popular),INCLUIR,Interpretación musical,llm,Capacitación práctica como intérprete de instrumentos populares
+tecnologia en sonido,INCLUIR,Producción musical y sonido,llm,"Tecnología aplicada a la producción sonora, habitualmente usada en música"
+tecnologia en sonido e iluminacion,DUDOSO,,llm,Combina sonido e iluminación; no se sabe si el enfoque principal es musical

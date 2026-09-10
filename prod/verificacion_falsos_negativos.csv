@@ -1,0 +1,85 @@
+tipo,nombre_normalizado,veredicto,categoria,metodo,razon
+red,coreografia y pedagogia en danza-teatro,EXCLUIR,,llm,No incluye estudio de música.
+red,danza,EXCLUIR,,llm,No incluye estudio de música.
+red,danza y coreografia,EXCLUIR,,llm,No incluye estudio de música.
+red,interpretacion en danza,EXCLUIR,,llm,No incluye estudio de música.
+red,"interpretacion, mencion danza",EXCLUIR,,llm,No incluye estudio de música.
+red,interprete en danza,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en danza,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en danza menciones pedagogia/interprete/coreografo,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en educacion artistica y pedagogia en artes visuales,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en educacion de las artes plasticas y pedagogia en artes plasticas,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en educacion y pedagogia en artes plasticas,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura en educacion y pedagogia en artes visuales,EXCLUIR,,llm,No incluye estudio de música.
+red,licenciatura y pedagogia en artes,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia artes plasticas mencion pintura y/o escultura y/o grabado,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia educacion media en artes visuales,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en arte,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en arte y diseno,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en artes manuales,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en artes plasticas,EXCLUIR,,llm,No incluye estudio de música.
+red,"pedagogia en artes plasticas, basica y media",EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en artes visuales,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en artes visuales con mencion en patrimonio,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en artes visuales modalidad prosecucion de estudios,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en danza,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en educacion media artes visuales,EXCLUIR,,llm,No incluye estudio de música.
+red,pedagogia en educacion media en artes visuales,EXCLUIR,,llm,"Se centra en artes visuales, sin mención de música."
+red,pedagogia en teoria e historia del arte y diseno,EXCLUIR,,llm,Enfocado en teoría de arte y diseño; no menciona música.
+red,pedagogia media en artes visuales,EXCLUIR,,llm,"Programa orientado a artes visuales, sin referencia a música."
+red,pedagogia y licenciatura en artes,DUDOSO,,llm,No se especifica si incluye música o solo otras artes; revisión necesaria.
+red,pet de danza,EXCLUIR,,llm,"Programa de danza, no abarca contenido musical."
+red,plan especial pedagogia y licenciatura en artes visuales,EXCLUIR,,llm,Enfoque en artes visuales; no menciona música.
+red,programa de pedagogia en educacion media en artes visuales,EXCLUIR,,llm,"Programa educativo en artes visuales, sin contenido musical."
+red,programa especial de titulacion pedagogia media en artes visuales,ERROR,,llm,Nombre 'programa especial de titulacion pedagogia media en artes visuales' ausente en la respuesta del LLM
+red,prosecucion de estudios licenciatura en educacion y pedagogia en artes escenicas con mencion en danza o teatro,EXCLUIR,,llm,"Mención específica en danza y teatro, sin referencia musical."
+control,diplomado en implementacion y auditoria interna de sistemas integrados de gestion,EXCLUIR,,llm,Enfocado en gestión de sistemas; no tiene relación con música.
+control,magister en gestion y desarrollo regional y local,EXCLUIR,,llm,"Programa de gestión regional, sin contenido musical."
+control,diplomado en gestion de creatividad innovacion y emprendimiento para profesores de ensenanza tecnico profesional,EXCLUIR,,llm,Enfocado en creatividad y emprendimiento; no menciona música.
+control,ingenieria comercial mencion gestion,EXCLUIR,,llm,"Carrera de ingeniería comercial, sin vínculo con la música."
+control,programa de especializacion en enfermeria en cuidados intensivos del nino,EXCLUIR,,llm,Programa médico; no incluye estudios musicales.
+control,tecnologia en administracion de empresas mencion marketing,ERROR,,llm,Nombre 'tecnologia en administracion de empresas mencion marketing' ausente en la respuesta del LLM
+control,teatro profesional,EXCLUIR,,llm,Programa teatral; no se indica que sea musical.
+control,ingenieria en automatizacion y control industrial (pce),EXCLUIR,,llm,"Carrera de ingeniería industrial, sin contenido musical."
+control,administracion de empresas turisticas mencion turismo aventura,EXCLUIR,,llm,Programa de gestión turística; no aborda música.
+control,diplomado en discapacidad e inclusion,EXCLUIR,,llm,"Enfoque en discapacidad, sin referencia a la música."
+control,diplomado en gestion estrategica de org,EXCLUIR,,llm,Programa de gestión organizacional; no incluye música.
+control,magister en clinica relacional con ninos ninas y adolescentes,EXCLUIR,,llm,"Especialización clínica, sin relación musical."
+control,diplomado en funcionalidad y envejecimiento,EXCLUIR,,llm,Programa de geriatría; no cubre estudios musicales.
+control,tecnico de nivel superior en educacion diferencial e inclusion,EXCLUIR,,llm,"Educación diferencial, sin mención a la música."
+control,auditoria plan especial,EXCLUIR,,llm,Programa de auditoría; no tiene contenido musical.
+control,tecnico universitario interprete ingles-espanol,EXCLUIR,,llm,"Interpretes lingüísticos, sin referencia a la música."
+control,magister en gestion de comunidades digitales,EXCLUIR,,llm,No es un programa relacionado con la música.
+control,gastronomia internacional y tradicional chilena,EXCLUIR,,llm,"Enseñanza gastronómica, no musical."
+control,postitulo en ensenanza de las matematicas,EXCLUIR,,llm,"Se enfoca en matemáticas, no música."
+control,ingenieria en redes y comunicaciones,EXCLUIR,,llm,"Programa técnico en ingeniería, no musical."
+control,master en gestion y politicas publicas,EXCLUIR,,llm,No se trata de música.
+control,pce ingenieria en construccion,EXCLUIR,,llm,"Ingeniería civil, no musical."
+control,plan especial ingenieria en informatica,EXCLUIR,,llm,"Enfoque informático, no musical."
+control,diplomado en dermatocosmiatria,EXCLUIR,,llm,"Programa de dermatología, no música."
+control,magister en salud mental y psiquiatria comunitaria,EXCLUIR,,llm,"Salud mental, no musical."
+control,diplomado en estadistica mencion mineria de datos,EXCLUIR,,llm,"Estadística aplicada, no música."
+control,magister en derecho de mineria,EXCLUIR,,llm,"Derecho minero, no musical."
+control,magister en comprension lectora y produccion de textos,EXCLUIR,,llm,"Literatura/tecnología textual, no música."
+control,tecnico de nivel superior en redes y telecomunicaciones,EXCLUIR,,llm,"Técnico en telecomunicaciones, no musical."
+control,diplomado en operaciones logisticas y cadena de suministros,EXCLUIR,,llm,"Logística empresarial, no música."
+control,magister en estudios clasicos mencion lengua griega y latina (plan parcial),EXCLUIR,,llm,"Estudios clásicos, no musical."
+control,diploma de desarrollo profesional y laboral en inteligencia artificial para comunicadores,EXCLUIR,,llm,"Enfoque tecnológico/communication, no música."
+control,pedagogia en matematica en educacion media,EXCLUIR,,llm,"Pedagogía matemática, no musical."
+control,"pedagogia en educacion fisica, deportes y recreacion damas",EXCLUIR,,llm,"Educación física, no música."
+control,tecnico en administracion (modulos),EXCLUIR,,llm,"Administración, no musical."
+control,programa de formacion de especialista en ortodoncia y ortopedia dento maxilofacial,EXCLUIR,,llm,"Especialidad odontológica, no música."
+control,diplomado en estrategia y gestion de la propiedad intelectual e innovacion,EXCLUIR,,llm,"Gestión de PI, no musical."
+control,postitulo en estudio y comprension de la naturaleza,EXCLUIR,,llm,"Estudio de la naturaleza, no música."
+control,tourism and hospitality,EXCLUIR,,llm,"Turismo/hospitalidad, no musical."
+control,diplomado en hemodialisis,EXCLUIR,,llm,"Procedimiento clínico, no música."
+control,programa de formacion pedagogica en ensenanza media menciones: ingles/ historia y ciencias sociales/ artes visuales/ religion/ lenguaje y comunicacion/ quimica/fisica/ matematica/ filosofia,EXCLUIR,,llm,Enseñanza media sin mención a música.
+control,tecnologia en alimentos,EXCLUIR,,llm,No tiene relación con la música.
+control,postitulo en especialidad en radiologia,EXCLUIR,,llm,No se enfoca en estudios musicales.
+control,licenciatura en ciencias forenses y seguridad integral,EXCLUIR,,llm,"Centra sus contenidos en ciencias forenses, no música."
+control,programa de especialidad medica en traumatologia y ortopedia,EXCLUIR,,llm,"Es una especialidad médica, no musical."
+control,tecnico en traduccion espanol-mapuzungun-espanol,EXCLUIR,,llm,"Enseña traducción, sin vínculo con la música."
+control,diploma de postitulo en alergias alimentarias que debemos saber hoy para su diagnostico y manejo,EXCLUIR,,llm,"Focaliza en alergias, no en estudios musicales."
+control,ingenieria de ejecucion comercio internacional y negocios internacionales (curriculum internacional) (espanol o bilingue),EXCLUIR,,llm,"Enseña ingeniería/comercio, sin contenido musical."
+control,diplomado en liderazgo y coaching para el cambio,EXCLUIR,,llm,"Orientado al liderazgo, no a la música."
+control,diplomado de terapia ocupacional en lesiones y patologias de mano,EXCLUIR,,llm,"Es un programa de terapia ocupacional, no musical."

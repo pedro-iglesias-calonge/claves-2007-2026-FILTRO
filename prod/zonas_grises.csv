@@ -1,0 +1,27 @@
+nombre_normalizado,nombre_original,veredicto,categoria,metodo,razon,origen
+diploma de postitulo en comunicacion y gestion cultural,DIPLOMA DE POSTITULO EN COMUNICACION Y GESTION CULTURAL,DUDOSO,,llm,No se indica si el programa es específico de música; requiere revisión humana,DUDOSO del LLM
+diploma de postitulo en gestion cultural,DIPLOMA DE POSTITULO EN GESTION CULTURAL,DUDOSO,,llm,No se especifica foco musical; revisión necesaria,DUDOSO del LLM
+diploma de postitulo en gestion cultural comunitaria y politicas culturales,DIPLOMA DE POSTITULO EN GESTION CULTURAL COMUNITARIA Y POLITICAS CULTURALES,DUDOSO,,llm,Ambiguo respecto a la inclusión de música,DUDOSO del LLM
+diplomado en gestion cultural,DIPLOMADO EN GESTION CULTURAL,DUDOSO,,llm,No especifica si es música; necesita revisión,DUDOSO del LLM
+diplomado en gestion cultural mencion administracion de organizaciones culturales,DIPLOMADO EN GESTION CULTURAL MENCION ADMINISTRACION DE ORGANIZACIONES CULTURALES,DUDOSO,,llm,Ambigüedad sobre el foco musical,DUDOSO del LLM
+diplomado en gestion cultural mencion educacion artistica o mediacion lectora,DIPLOMADO EN GESTION CULTURAL MENCION EDUCACION ARTISTICA O MEDIACION LECTORA,DUDOSO,,llm,Requiere confirmación de contenido musical,DUDOSO del LLM
+diplomado en gestion cultural publica y privada,DIPLOMADO EN GESTION CULTURAL PUBLICA Y PRIVADA,DUDOSO,,llm,No indica enfoque musical; revisión necesaria,DUDOSO del LLM
+diplomado en gestion cultural vinculado a la educacion,DIPLOMADO EN GESTION CULTURAL VINCULADO A LA EDUCACION,DUDOSO,,llm,Ambiguo respecto a música,DUDOSO del LLM
+diplomado en gestion y autogestion cultural,DIPLOMADO EN GESTION Y AUTOGESTION CULTURAL,DUDOSO,,llm,No especifica vínculo con música; revisión necesaria,DUDOSO del LLM
+diplomado gestion cultural del patrimonio,DIPLOMADO GESTION CULTURAL DEL PATRIMONIO,DUDOSO,,llm,No se indica si incluye música; necesita revisión,DUDOSO del LLM
+educacion artistica,EDUCACION ARTISTICA,DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+ingenieria civil en sonido y acustica,INGENIERIA CIVIL EN SONIDO Y ACUSTICA,DUDOSO,,lexico,Híbrido 'sonido y acústica': se privilegia el sonido pero la acústica técnica queda en zona gris,Híbrido 'sonido y acústica'
+ingenieria en sonido y acustica,INGENIERIA EN SONIDO Y ACUSTICA,DUDOSO,,lexico,Híbrido 'sonido y acústica': se privilegia el sonido pero la acústica técnica queda en zona gris,Híbrido 'sonido y acústica'
+"licenciatura en educacion y pedagogia en educacion parvularia con mencion en ingles, o educacion comunitaria, o en integracion curricular, o en educacion artistica","LICENCIATURA EN EDUCACION Y PEDAGOGIA EN EDUCACION PARVULARIA CON MENCION EN INGLES, O EDUCACION COMUNITARIA, O EN INTEGRACION CURRICULAR, O EN EDUCACION ARTISTICA",DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+magister en educacion artistica,MAGISTER EN EDUCACION ARTISTICA,DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+magister en patrimonio y gestion cultural,MAGISTER EN PATRIMONIO Y GESTION CULTURAL,DUDOSO,,llm,No se especifica si el enfoque es musical,DUDOSO del LLM
+pedagogia en educacion artistica,PEDAGOGIA EN EDUCACION ARTISTICA,DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+pedagogia en educacion artistica en ensenanza basica y media,PEDAGOGIA EN EDUCACION ARTISTICA EN ENSEÑANZA BASICA Y MEDIA,DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+pedagogia y licenciatura en artes,PEDAGOGIA Y LICENCIATURA EN ARTES,DUDOSO,,llm,No se especifica si incluye música o solo otras artes; revisión necesaria.,DUDOSO del LLM
+postitulo en educacion artistica,POSTITULO EN EDUCACION ARTISTICA,DUDOSO,,lexico,Educación artística pura (sin mención de música),Educación artística pura
+sonido,SONIDO,DUDOSO,,llm,"Nombre genérico, no claro si se centra en música",DUDOSO del LLM
+tecnico de nivel superior sonido y acustica,TECNICO DE NIVEL SUPERIOR SONIDO Y ACUSTICA,DUDOSO,,lexico,Híbrido 'sonido y acústica': se privilegia el sonido pero la acústica técnica queda en zona gris,Híbrido 'sonido y acústica'
+tecnico en arte y gestion cultural,TECNICO EN ARTE Y GESTION CULTURAL,DUDOSO,,llm,"Enfoque general de gestión cultural, no especifica música",DUDOSO del LLM
+tecnico en artes y gestion cultural,TECNICO EN ARTES Y GESTION CULTURAL,DUDOSO,,llm,Enfoque amplio sin indicio de especialización musical,DUDOSO del LLM
+tecnico universitario en sonido y acustica,TECNICO UNIVERSITARIO EN SONIDO Y ACUSTICA,DUDOSO,,lexico,Híbrido 'sonido y acústica': se privilegia el sonido pero la acústica técnica queda en zona gris,Híbrido 'sonido y acústica'
+tecnologia en sonido e iluminacion,TECNOLOGIA EN SONIDO E ILUMINACION,DUDOSO,,llm,Combina sonido e iluminación; no se sabe si el enfoque principal es musical,DUDOSO del LLM

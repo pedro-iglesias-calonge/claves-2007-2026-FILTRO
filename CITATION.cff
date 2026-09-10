@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Si utiliza este procedimiento o sus datos derivados, cite este repositorio."
+title: "CLAVES 2007-2026: Consulta Longitudinal Abierta para la Visualización de la Educación Superior Musical en Chile"
+abstract: >-
+  Procedimiento auditable y reproducible para identificar, extraer y documentar
+  los programas de educación superior vinculados con la música en Chile entre
+  2007 y 2026, a partir de la Base de Datos de Matrícula del SIES. La base
+  original de 280.160 registros se reduce a 2.664 filas correspondientes a 215
+  programas musicales, conservando la estructura y el formato de la fuente.
+  El método combina reglas léxicas y semánticas, verificación asistida por un
+  modelo de lenguaje y revisión humana de las zonas grises, con trazabilidad
+  completa de cada decisión.
+type: software
+authors:
+  - family-names: "Iglesias"
+    given-names: "Pedro"
+    affiliation: "Universidad Alberto Hurtado, Instituto de Música"
+    orcid: "https://orcid.org/0000-0003-4678-3365"
+    email: "ipedro@uahurtado.cl"
+repository-code: "https://github.com/pedro-iglesias-calonge/claves-2007-2026-FILTRO"
+url: "https://github.com/pedro-iglesias-calonge/claves-2007-2026-FILTRO"
+license: MIT
+license-url: "https://github.com/pedro-iglesias-calonge/claves-2007-2026-FILTRO/blob/main/LICENSE"
+keywords:
+  - educación superior
+  - música
+  - Chile
+  - SIES
+  - matrícula
+  - datos abiertos
+  - ciencia abierta
+  - clasificación
+  - modelo de lenguaje
+  - revisión humana
+version: "1.0.0"
+date-released: "2026-09-10"

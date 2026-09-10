@@ -1,0 +1,22 @@
+# Datos fuente (no versionados en el repositorio)
+datos SIES/*.csv
+
+# Secretos locales (nunca versionar claves de API)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Entornos y editores
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

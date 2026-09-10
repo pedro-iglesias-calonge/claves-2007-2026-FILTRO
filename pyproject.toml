@@ -1,0 +1,21 @@
+[project]
+name = "sies-musica"
+version = "1.0.0"
+description = "Filtro reproducible de programas de música en la base de matrícula SIES 2007-2026"
+readme = "README.md"
+requires-python = ">=3.14"
+license = { text = "MIT" }
+dependencies = ["pandas>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest", "mypy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+packages = ["sies_musica"]

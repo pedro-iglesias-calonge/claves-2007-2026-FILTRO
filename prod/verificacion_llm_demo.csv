@@ -1,0 +1,51 @@
+nombre_normalizado,veredicto,categoria,metodo,razon
+educacion artistica,DUDOSO,,llm,"Ambiguo, puede incluir artes visuales u otras áreas artísticas sin indicar explícitamente música."
+ingenieria civil en sonido y acustica,INCLUIR,Producción musical y sonido,llm,"El programa se centra en la ingeniería del sonido y acústica, disciplina fundamental para la producción y grabación musical."
+ingenieria en sonido y acustica,INCLUIR,Producción musical y sonido,llm,"Enfocado a la ingeniería de sonido, una rama esencial en la producción musical."
+"licenciatura en educacion y pedagogia en educacion parvularia con mencion en ingles, o educacion comunitaria, o en integracion curricular, o en educacion artistica",DUDOSO,,llm,"Aunque menciona educación artística, no especifica si incluye música; puede abarcar otras artes."
+magister en educacion artistica,DUDOSO,,llm,El término “artística” es amplio y no garantiza la presencia de contenido musical.
+pedagogia en educacion artistica,DUDOSO,,llm,Podría centrarse en artes visuales o escénicas sin incluir música explícitamente.
+pedagogia en educacion artistica en ensenanza basica y media,DUDOSO,,llm,No se especifica si el enfoque incluye la enseñanza de la música.
+postitulo en educacion artistica,DUDOSO,,llm,Ambiguo respecto a si abarca disciplinas musicales dentro de las artes.
+tecnico de nivel superior sonido y acustica,INCLUIR,Producción musical y sonido,llm,"Especialización en sonido y acústica, clave para la producción y gestión sonora musical."
+tecnico universitario en sonido y acustica,INCLUIR,Producción musical y sonido,llm,Enfocado en ingeniería de sonido; fundamental para el ámbito musical.
+diplomado en implantologia quirurgico protesico enfocado a la produccion digital de la rehabilitacion,EXCLUIR,,llm,"Se trata de una especialidad médica, sin relación con estudios musicales."
+magister en gestion territorial de recursos naturales,EXCLUIR,,llm,No está relacionado con la música ni sus disciplinas.
+diplomado en gestion de convivencia escolar,EXCLUIR,,llm,"Enfocado a gestión escolar, no musical."
+ingenieria comercial mencion economia,ERROR,,llm,Nombre 'ingenieria comercial mencion economia' ausente en la respuesta del LLM
+programa de especialidad medica en obstetricia y ginecologia,EXCLUIR,,llm,"Especialidad médica, no musical."
+tecnico universitario en transporte maritimo costero,EXCLUIR,,llm,"Enfocado a logística marítima, sin vínculo con música."
+sociologia (prosecucion),EXCLUIR,,llm,"Ciencias sociales, no musical."
+ingenieria en automatizacion e instrumentacion industrial,EXCLUIR,,llm,"Ingeniería industrial, sin relación con la música."
+administracion de empresas turisticas mencion turismo aventura,EXCLUIR,,llm,"Gestión turística, no musical."
+diplomado en direccion y gestion escolar,EXCLUIR,,llm,"Gestión educativa, sin contenido musical. "
+diplomado en gestion estrategica de las relaciones laborales,EXCLUIR,,llm,Enfocado a recursos humanos; no tiene vínculo con la música.
+"magister en ciencias, mencion computacion",EXCLUIR,,llm,Ciencias y tecnología; sin conexión específica con la música. 
+diplomado en fuerza muscular y acondicionamiento fisico aplicado a la rehabilitacion,EXCLUIR,,llm,"Enfocado a fisioterapia, no musical."
+tecnico de nivel superior en contador general,EXCLUIR,,llm,Contabilidad; sin relación con la música.
+auditoria plan especial,EXCLUIR,,llm,"Especialidad de auditoría, no musical."
+tecnico universitario en quimica y farmacia,EXCLUIR,,llm,"El programa se enfoca en química y farmacia, no tiene relación con la música."
+magister en gestion colaborativa de conflictos (iquique),EXCLUIR,,llm,"Este magíster trata sobre gestión de conflictos, no está relacionado con la música."
+gastronomia internacional,EXCLUIR,,llm,"El programa se dedica a gastronomía, sin vínculo con la música."
+postitulo en educacion mencion trastornos del lenguaje,EXCLUIR,,llm,"Se centra en trastornos del lenguaje, no es un programa musical."
+ingenieria en redes computacionales,EXCLUIR,,llm,"El enfoque es ingeniería de redes, sin conexión con la música."
+master en direccion financiera e inversiones,EXCLUIR,,llm,"Este máster se orienta a finanzas, no tiene relación musical."
+pce egresados no titulados ingenieria comercial uv-1 sem,EXCLUIR,,llm,"Programa de ingeniería comercial, sin vínculo con la música."
+plan especial ingenieria civil en electricidad,EXCLUIR,,llm,"Se enfoca en ingeniería civil y electricidad, no musical."
+diplomado en derechos humanos y empresas,EXCLUIR,,llm,"El diplomado trata derechos humanos empresariales, no es musical."
+magister en responsabilidad social de la empresa,EXCLUIR,,llm,"Enfoque en responsabilidad corporativa, sin relación con música."
+"diplomado en estabilidad mandibular, oclusion dentaria, posicion inicial de tratamiento e introduccion a la medicina odontologica de sueno",EXCLUIR,,llm,"Programa dental y médico, no musical."
+magister en derecho de familia(s) y derecho de la infancia y de la adolescencia,EXCLUIR,,llm,"Se centra en derecho familiar, sin vínculo con música."
+magister en clinica psicodinamica con ninos y sus padres,EXCLUIR,,llm,"Enfoque psicológico clínico, no musical."
+tecnico de nivel superior en prevencion de riesgos y medio ambiente,EXCLUIR,,llm,"Programa técnico de prevención ambiental, sin conexión con música."
+diplomado en operacion de aeronaves no tripuladas,EXCLUIR,,llm,"Se dedica a UAV, no tiene relación musical."
+magister en estrategia internacional y politica gerencial,EXCLUIR,,llm,"Enfoque estratégico y político, sin vínculo con la música."
+"diploma de desarrollo profesional y laboral en compras publicas: modernizacion, transparencia y sostenibilidad",EXCLUIR,,llm,"Programa de compras públicas, no musical."
+pedagogia en ingles para educacion media,EXCLUIR,,llm,"Se enfoca en la enseñanza del inglés, sin relación con música."
+pedagogia en educacion especial y diferenciada,EXCLUIR,,llm,"Programa educativo especializado, no musical."
+tecnico de nivel superior universitario en alimentos,EXCLUIR,,llm,"Se trata de tecnología alimentaria, sin vínculo con la música."
+programa de estadia de perfeccionamiento (fellowship) en cirugia de columna vertebral,EXCLUIR,,llm,"Programa quirúrgico especializado, no musical."
+diplomado en estrategia y control de gestion (online),EXCLUIR,,llm,"Enfoque empresarial y de gestión, sin relación musical."
+postitulo en especialidad en imagenologia oral y maxilo facial,EXCLUIR,,llm,"Programa médico-odontológico, no tiene vínculo con la música."
+titulo profesional de especialista en imagenologia oral y maxilo-facial (online),EXCLUIR,,llm,"Se enfoca en imágenes médicas, sin conexión musical."
+diplomado en hacking etico,EXCLUIR,,llm,"Programa de ciberseguridad, no es un programa musical."
