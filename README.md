@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/Código-MIT-yellow.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/Datos%20y%20documentos-CC%20BY%204.0-lightgrey.svg)](LICENSE-CC-BY-4.0.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22697341.svg)](https://doi.org/10.5281/zenodo.22697341)
 [![Estado](https://img.shields.io/badge/estado-publicación%20académica-informational)](#)
 
 ---
@@ -267,6 +268,7 @@ Si utiliza este procedimiento o los datos derivados, cite el repositorio. Los me
   title        = {CLAVES 2007-2026: Filtro de programas vinculados a la música en la base de datos del SIES},
   author       = {Pedro Iglesias},
   year         = {2026},
+  doi          = {10.5281/zenodo.22697342},
   howpublished = {\url{https://github.com/pedro-iglesias-calonge/claves-2007-2026-FILTRO}},
   note         = {Filtrado reproducible de programas de música en la Base de Datos de Matrícula del SIES}
 }
