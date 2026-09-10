@@ -45,6 +45,9 @@ reproduce el glosario oficial de los 58 campos de la base (nombre, valores
 posibles y descripción). Es la referencia para interpretar las columnas que el
 pipeline conserva intactas en `prod/Musica_2007_2026_filtrado.csv`.
 
+La información de este glosario proviene del documento oficial
+[OFICIAL_GLOSARIO_MATRICULA_WEB_E.pdf](https://www.mifuturo.cl/wp-content/uploads/2026/07/OFICIAL_GLOSARIO_MATRICULA_WEB_E.pdf).
+
 ## Nota sobre encoding
 
 La base fuente está codificada en **`cp1252`** y contiene **5 bytes no
